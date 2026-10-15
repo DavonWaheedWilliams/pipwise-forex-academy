@@ -1,0 +1,21 @@
+
+[hidden]{display:none!important}
+.auth-area{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:30px 16px;background:radial-gradient(circle at 77% 18%,#153e42 0%,transparent 37%),#090e1b}
+.auth-panel{width:min(100%,510px);background:#111b2b;border:1px solid #2b4458;border-radius:22px;padding:32px;box-shadow:0 26px 74px #02091270}
+.auth-panel h1{font-size:30px;margin:8px 0 11px}.auth-panel p{color:#b7c7d8}.auth-panel .brand{padding:0 0 15px}
+.auth-panel .form-item{display:grid;gap:6px;margin:15px 0}.auth-panel label{font-weight:650;color:#cedce8}
+.auth-panel input{width:100%;background:#10192a;border:1px solid #3a4f66;color:#fff;padding:13px;border-radius:11px}
+.auth-panel input:focus{outline:2px solid #57e4c3}
+.auth-panel .btn{width:100%;margin:8px 0 4px}
+.auth-links{display:flex;flex-wrap:wrap;gap:10px;justify-content:space-between;margin-top:18px}
+.auth-links button{color:#8cefdc;background:none;border:0;text-decoration:underline;padding:6px}
+.auth-note{font-size:12px;line-height:1.5;background:#1a2b3a;border:1px solid #315064;border-radius:12px;padding:13px;margin-top:16px}
+.auth-alert{background:#41252e;border:1px solid #854754;color:#ffccd1;border-radius:11px;padding:12px;margin:14px 0;white-space:pre-wrap}
+.auth-success{background:#183832;border:1px solid #336b5b;color:#bfffe6;border-radius:11px;padding:12px;margin:14px 0}
+.auth-loading{color:#bbd5d9;padding:35px}
+.btn-cloud{border:1px solid #477d76;border-radius:10px;background:#225f56;color:#eafffb;padding:10px 14px;font-weight:700;cursor:pointer}
+#cloudIndicator.sync-ok:before{background:#57e4c3}#cloudIndicator.sync-pending:before{background:#f4bd6c}#cloudIndicator.sync-error:before{background:#ff8b94}
+.admin-cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-bottom:20px}.admin-kpi{background:#17263a;border:1px solid #2d4358;border-radius:12px;padding:18px}.admin-kpi b{display:block;font-size:28px;color:#57e4c3}.admin-kpi span{font-size:12px;color:#afc1d4}
+.admin-table{width:100%;border-collapse:collapse}.admin-table th,.admin-table td{padding:12px 9px;border-bottom:1px solid #26384c;text-align:left}.admin-table th{white-space:nowrap}
+.admin-small{font-size:11px;color:#99b0c8;margin:13px 0}.admin-filter{margin:0 0 15px;width:min(100%,400px);background:#101b2c;border:1px solid #324c65;color:white;padding:11px;border-radius:9px}
+@media(max-width:740px){.auth-panel{padding:22px}.auth-panel h1{font-size:26px}.admin-cards{grid-template-columns:1fr}.admin-table{font-size:12px}}
