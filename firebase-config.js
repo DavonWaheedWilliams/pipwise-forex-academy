@@ -8,4 +8,4 @@ window.PIPWISE_FIREBASE_CONFIG = {
 };
 
 // Register your own account first. Then replace this UID in this file AND firestore.rules.
-window.PIPWISE_ADMIN_UID = "PASTE_YOUR_ADMIN_UID";
+window.PIPWISE_ADMIN_UID = "3QWxjwqsGCaxwpNuO2uGYVTwYQT2";
